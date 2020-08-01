@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "waifu";
+    src: url('images/waifu.ttf');
+}
+
+body {
+    background-image: url("images/black.gif");
+    background-repeat: repeat;
+    font-family: 'waifu';
+  
+}
+
+/* color for text */
+.main {
+    color:white;
+    text-align: left;
+    margin-left: 10px;
+    list-style-type: none;
+    font-family: 'waifu';
+}
+
+
+/* title bar */
+.bar {
+    background-color: #3fbd1c;
+    font-family: 'waifu';
+    width: 75%;
+}
+
+/* title bar pt2 */
+.bar2 {
+    background-color:grey;
+    color: black;
+}
+/* main body */
+.inhalt{
+    background-color:  #262626;
+    width: 75%;
+    /*overflow: auto;*/
+    font-family: "waifu";
+}
+
+/* unvisited link */
+a:link {
+    color:  #1aff1a;
+    text-decoration: none;
+}
+
+a:special{
+    color:black;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.linkBanner {
+	width: 240px;
+	height: 60px;
+	padding: 10px;
+	}
+
+
+/*WINDOWS STYLE*/
+
+.winbar {
+    background-color: #002b80; 
+    color: white;
+    text-align: left;
+    height: 20px;
+    
+}
+
+.winbutton {
+    outline-style: outset;
+    background-color: #a6a6a6;
+    outline-color: black;
+    outline-width: 3px;
+    text-align: right;
+    color: black;
+    float:right;
+    margin-right:10px
+}
+
+.wininhalt {
+    background-color:  #a6a6a6;
+    width: 75%;
+    /*overflow: auto;*/
+    font-family: "waifu";
+}
+
+.winmain {
+    color:black;
+    text-align: left;
+    margin-left: 10px;
+}
